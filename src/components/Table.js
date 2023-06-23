@@ -1,5 +1,5 @@
 import React from "react";
-import "./Tabls.css";
+import "./Table.css"
 import { snacks } from "../data";
 import { useState } from "react";
 
