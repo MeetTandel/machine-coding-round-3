@@ -1,0 +1,38 @@
+.table__container {
+  margin: 40px auto 0 20px;
+}
+
+input {
+  min-width: 250px;
+  padding: 10px;
+}
+
+.table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table,
+tr,
+th,
+td {
+  border: 1px solid black;
+}
+
+.table thead th {
+    cursor: pointer;
+}
+
+.table thead th,
+.table tbody td {
+  padding: 10px 10px;
+}
+
+.table tbody td {
+  text-align: left;
+}
+
+.no-data {
+    text-align: center !important;
+    height: 180px;
+}
